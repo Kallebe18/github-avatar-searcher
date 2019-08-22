@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import './style.css';
 
-class NameForm extends React.Component {
+class Box extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -91,7 +91,7 @@ class Users extends React.Component {
 class App extends React.Component {
   render(){
     return(
-      <NameForm/>
+      <Box/>
     );
   }
 }
